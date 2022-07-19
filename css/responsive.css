@@ -5,6 +5,7 @@
   }
   .hero-container {
     margin: 0;
+    border-radius: 10px;
   }
   .hero {
     display: flex;
@@ -21,12 +22,13 @@
     line-height: 33px;
     letter-spacing: 0em;
     text-align: center;
-    padding: 28px 53px 8px 53px;
+    padding: 28px 32px 8px 32px;
   }
   .hero-subtext {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    padding: 0 32px;
   }
 }
 /* medium device */

@@ -30,6 +30,7 @@ body {
   background-color: #161616;
   border-radius: 30px;
   margin: 10px;
+  margin-bottom: 130px;
 }
 .hero {
   display: flex;
