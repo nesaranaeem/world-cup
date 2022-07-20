@@ -3,6 +3,16 @@
   /* common things  */
   body {
   }
+  .side-cat {
+    background: #ffffff;
+  }
+  .side-cat-item {
+    background: #e8e8e8;
+  }
+  .selected {
+    background: #dd0000;
+    color: #ffffff;
+  }
   /* hero section  */
   .hero-container {
     margin: 0;
@@ -32,21 +42,16 @@
     padding: 0 32px;
   }
   /* news section  */
-  .news-container {
+
+  /* news + upcoming match container */
+  .news-container,
+  .upcoming-match-container {
     flex-direction: column;
     align-items: center;
   }
-  .news-side {
-    background: #ffffff;
-  }
-  .news-sec {
-    background: #e8e8e8;
-  }
-  .selected {
-    background: #dd0000;
-    color: #ffffff;
-  }
-  .news-list {
+  /* news + upcoming match list */
+  .news-list,
+  .upcoming-match-list {
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 30px;
@@ -69,6 +74,26 @@
 @media screen and (min-width: 577px) and (max-width: 992px) {
   /* common things */
   body {
+  }
+  .side-cat {
+    background: #ffffff;
+    flex-direction: row;
+  }
+  .side-cat-item {
+    background: #e8e8e8;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 230px;
+  }
+  .selected {
+    background: #dd0000;
+    color: #ffffff;
   }
   /* hero section */
   .hero-title {
@@ -93,35 +118,21 @@
     padding-top: 68px;
   }
   /* news section  */
-  .news-list {
+  /* news + upcoming match list */
+  /* news + upcoming match container */
+  .news-container,
+  .upcoming-match-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-list,
+  .upcoming-match-list {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 30px;
   }
-  .news-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .news-side {
-    background: #ffffff;
-    flex-direction: row;
-  }
-  .news-sec {
-    background: #e8e8e8;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin-right: 20px;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    width: 230px;
-  }
-  .selected {
-    background: #dd0000;
-    color: #ffffff;
-  }
+
   /* footer section */
   .footer-item {
     font-size: 14px;

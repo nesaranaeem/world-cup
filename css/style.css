@@ -4,6 +4,23 @@ body {
   margin: 0;
   padding: 0;
 }
+.side-cat-item {
+  padding: 17px 10px;
+  width: 200px;
+  margin-top: 30px;
+  background: #ffffff;
+  color: #161616;
+  border-radius: 10px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.selected {
+  background: #dd0000;
+  color: #ffffff;
+}
 .btn {
   text-decoration: none;
   height: 44px;
@@ -24,6 +41,17 @@ body {
 .btn:hover {
   background: rgb(230, 0, 255);
   transition: background 2s;
+}
+.side-cat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 312px;
+  height: 312px;
+  margin-right: 24px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: #161616;
 }
 /* hero section  */
 .hero-container {
@@ -78,34 +106,7 @@ body {
   text-align: center;
   padding-bottom: 130px;
 }
-.news-side {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 312px;
-  height: 312px;
-  margin-right: 24px;
-  margin-left: 10px;
-  border-radius: 10px;
-  background: #161616;
-}
-.news-sec {
-  padding: 17px 10px;
-  width: 200px;
-  margin-top: 30px;
-  background: #ffffff;
-  color: #161616;
-  border-radius: 10px;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-}
-.selected {
-  background: #dd0000;
-  color: #ffffff;
-}
+
 .news-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -216,4 +217,68 @@ hr {
 }
 .fa-brands:hover {
   color: blue;
+}
+
+/* upcoming */
+.upcoming-match-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 130px;
+}
+.upcoming-match-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.match-box {
+  width: 312px;
+  height: 242px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+.team-vs {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.team {
+  padding: 0 20px;
+}
+.team img {
+  width: 94px;
+  height: 57px;
+}
+.vs {
+  font-style: normal;
+  /* padding: 0 20px; */
+  /* padding-top: 53px; */
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #161616;
+}
+.vs-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.vs-meta {
+  display: flex;
+  justify-content: center;
+}
+.vs-date,
+.vs-time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  text-align: center;
+  padding-right: 20px;
+  color: #4d4d4d;
 }
