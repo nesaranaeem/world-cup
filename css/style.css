@@ -37,6 +37,8 @@ body {
   text-align: left;
   color: #ffffff;
   margin-left: 106px;
+  animation-name: btn-animation;
+  animation-duration: 3s;
 }
 .btn:hover {
   background: rgb(230, 0, 255);
@@ -73,6 +75,7 @@ body {
   font-size: 70px;
   line-height: 80px;
   color: #ffffff;
+  animation-duration: 2s;
 }
 .hero-subtext {
   font-style: normal;
@@ -81,18 +84,22 @@ body {
   line-height: 26px;
   color: #ffffff;
   padding: 0 49px 30px 106px;
+  animation-duration: 5s;
 }
-@keyframes move-marcelo {
+
+/* animation for hero button  */
+@keyframes btn-animation {
   from {
-    padding-top: 33px;
+    background: blue;
+    padding: 10px 44px 10px 20px;
   }
   to {
-    padding-top: 0px;
+    #background: #dd0000;
+    padding: 10px 24px 10px 10px;
   }
 }
+
 .hero-image {
-  /* animation-name: move-marcelo;
-  animation-duration: 2s; */
 }
 .hero-image img {
   padding: 33px 79px 0 24px;
@@ -220,13 +227,13 @@ hr {
 .fa-brands {
   color: #ffffff;
   font-size: 2em;
-  padding-right: 20px;
+  margin-right: 20px;
 }
 .fa-brands:hover {
   color: blue;
 }
 
-/* upcoming */
+/* upcoming match page */
 .upcoming-match-container {
   display: flex;
   justify-content: center;
@@ -255,6 +262,7 @@ hr {
 .team img {
   width: 94px;
   height: 57px;
+  border: 1px solid gray;
 }
 .vs {
   font-style: normal;

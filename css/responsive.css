@@ -18,7 +18,7 @@
   }
   /* hero section  */
   .hero-container {
-    margin: 0;
+    margin: 20px;
     border-radius: 10px;
   }
   .hero {
@@ -26,7 +26,7 @@
     flex-direction: column;
   }
   .hero-image img {
-    padding-left: 58px;
+    padding-left: 45px;
     padding-right: 0;
     width: 300px;
   }
@@ -44,10 +44,8 @@
     text-overflow: ellipsis;
     padding: 0 32px;
   }
-  .hero-subtext:hover .hero-subtext {
-    visibility: visible;
-  }
-  /* news section  */
+
+  /* news upcoming match section  */
 
   /* news + upcoming match container */
   .news-container,
