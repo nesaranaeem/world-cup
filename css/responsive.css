@@ -26,9 +26,9 @@
     flex-direction: column;
   }
   .hero-image img {
-    padding-left: 25px;
+    padding-left: 35px;
     padding-right: 0;
-    width: 300px;
+    width: 285px;
   }
   .hero-title {
     font-size: 22px;
