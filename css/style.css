@@ -91,8 +91,8 @@ body {
   }
 }
 .hero-image {
-  animation-name: move-marcelo;
-  animation-duration: 2s;
+  /* animation-name: move-marcelo;
+  animation-duration: 2s; */
 }
 .hero-image img {
   padding: 33px 79px 0 24px;
@@ -114,11 +114,15 @@ body {
 }
 .news {
   width: 312px;
-  border: 1px solid gray;
+  border: 1px solid #e8e8e8;
   border-radius: 10px;
 }
+.news img {
+  width: 312px;
+  height: 175px;
+}
 .news-cat {
-  padding: 0 8px 8px 0 20px;
+  padding: 0 8px;
   margin-left: 20px;
   width: 67px;
   font-style: normal;
@@ -159,6 +163,9 @@ body {
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
+}
+.view-all {
+  display: none;
 }
 
 /* footer section */
