@@ -28,7 +28,7 @@
   .hero-image img {
     padding-left: 35px;
     padding-right: 0;
-    width: 285px;
+    width: 280px;
   }
   .hero-title {
     font-size: 22px;
@@ -71,7 +71,7 @@
   }
   .footer-social {
     align-items: center;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
 /* medium device */
